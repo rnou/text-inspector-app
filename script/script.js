@@ -9,7 +9,7 @@ form.addEventListener('submit', function(e) {
   
   const text = textInput.value;
   
-  charCount.textContent = text.Length;
+  charCount.textContent = text.length;
   wordCount.textContent = countWords(text);
   
   results.classList.add('show');
